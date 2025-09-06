@@ -6,6 +6,6 @@ import axios from 'axios'
 
 
 const API = axios.create({
-  baseURL: '/api'
+  baseURL: 'https://employee-ms-backend-six.vercel.app/api'
 })
 export default API;
